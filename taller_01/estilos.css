@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template: 150px 1fr 50px / 200px 1fr;
+    grid-template-areas: "header header" "left content" "footer footer";
+    grid-gap: 5px;
+    height: 100vh;
+}
+
+.header {
+    grid-area: header;
+    background-color:lightpink;
+}
+
+.content {
+    grid-area: content;
+}
+
+.footer {
+    grid-area: footer;
+    background-color:lightpink;
+}
+
+.actualizar{
+    height: 30px;
+    width: 30px;
+}
+.eliminar{
+    height: 30px;
+    width: 30px;
+}
+.agregar{
+    height: 30px;
+    width: 30px;
+    left: 445px;
+    position: relative;
+}
+
+table{
+    border-collapse: collapse;
+    width: 50%;
+    height: 80px;
+    top: 80%;
+}
+th, td{
+    border: solid 2px lightpink;
+    padding: 0px;
+}
+h1{
+    font-family: fantasy;
+}
+body{
+    text-align: center;
+}
+

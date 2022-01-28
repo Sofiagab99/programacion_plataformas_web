@@ -1,0 +1,33 @@
+h1{
+    font-family: fantasy;
+    color:black;
+    text-align: center;
+}
+
+body{
+    text-align: center;
+    background-color: lavender;
+}
+
+th, td{
+    border: solid 2px black;
+    padding: 0px;
+}
+
+.bandera{
+    height: 12px;
+    width: 12px;
+}
+
+table{
+    background-color: white;
+    width: 50%;
+    height: 80px;
+    top: 80%;
+    
+}
+thead{
+    background-color: darksalmon;
+    border-bottom: solid 5px floralwhite;
+    color: black;
+}
