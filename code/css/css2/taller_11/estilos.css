@@ -1,0 +1,7 @@
+p {
+    float: left;
+    width: 250px;
+    margin: 10px;
+    border: 1px dotted rosybrown;
+    padding: 10px;
+}

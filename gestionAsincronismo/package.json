@@ -1,0 +1,14 @@
+{
+  "name": "gestionasincronismo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Async_Await.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sofia Andrade",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
